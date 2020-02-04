@@ -30,12 +30,18 @@ ul>li{
 }
 header{
     background-attachment: fixed;
-    background-color: darkslategrey;
+    background-color:blueviolet;
 }
-header>nav>ul>li {
-    background-color: gold;
+nav>ul>li {
+    background-color:whitesmoke;
 }
 body {
-    background-image: url("https://bit.ly/31mJmQq");
-    height: 500px;
+    background-image: url("https://cdn.pixabay.com/photo/2014/12/27/15/40/office-581131__340.jpg");
+    /* height: 500px; */
+    background-size: cover;
+    background-repeat: no-repeat;
 } 
+.social{
+    text-align: center;
+    justify-content: center;
+}
