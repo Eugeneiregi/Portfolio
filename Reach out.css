@@ -41,4 +41,8 @@ header{
 nav>ul>li {
     background-color:whitesmoke;
 }
+body {
+    background-image: url("https://bit.ly/31tD0P8");
+    background-size: cover;
+}
 

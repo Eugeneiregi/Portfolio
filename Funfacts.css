@@ -6,6 +6,7 @@
     text-align: center;
     justify-content: center;
     text-decoration: underline;
+    width: auto;
 }
 nav{
     margin: auto;
@@ -34,4 +35,20 @@ header{
 }
 nav>ul>li {
     background-color:whitesmoke;
+}
+/* body {
+    
+} */
+body {
+    background-image: url("https://bit.ly/2tvQiOE") ;
+    background-size: cover;
+    height: 1000px;
+
+}
+h1{
+    text-align: center;
+    text-shadow: darkslateblue;
+    text-transform: uppercase;
+    padding: 15px;
+    color: darkslategrey;
 }

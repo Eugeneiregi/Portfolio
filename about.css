@@ -56,9 +56,14 @@ table, th, td {
       background-image: url("https://bit.ly/36YSWtV");
       background-size: cover;
       height: 1000px;
-      /* background-attachment: fixed; */
+      /* background-attachment: fixed;  grid-template-columns: auto auto auto;
+ */
+ 
       background-repeat: no-repeat;
-  }
+      display: grid;
+  
+    }
+
   h3 {
       font-size: 40px;
       text-align: center;
@@ -77,6 +82,7 @@ table, th, td {
     transform: translate(-50%, -50%);
     text-align: center;
     padding: 20px;
+    
   }
   .container {
     position: relative;
@@ -87,11 +93,11 @@ table, th, td {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: rgb(11, 51, 228);
+    background-color: rgb(69, 69, 73);
     overflow: hidden;
     width: 100%;
     height:0;
-    transition: .5s ease;
+    transition: .7s ease;
   }
   .shot {
       width: 100%;
@@ -103,7 +109,31 @@ table, th, td {
   }
   .flexing {
       display:flex;
-      justify-content: space-between;
-      border-image: 0%;
+      /* justify-content: space-between; */
+      border-image: 15px;
+      /* padding: 12px; */
       
   }
+  .image{
+      width: 100%;
+      height: 100%;
+      float: right;
+  }
+  #pass{
+      color:#0000ff;
+      font-size: 20px;
+  }
+  .write{
+      font-size: 20px;
+      color:cornflowerblue;
+  }
+  #footer{
+      background-color: darkmagenta;
+      text-align: center;
+      justify-content: flex-start;
+      padding: 25px 0px;
+      /* width: 100% !important; */
+      /* display: grid; */
+      margin: 0px -2px !important;
+      /* grid-template-columns: auto auto auto; */
+    }

@@ -7,12 +7,12 @@
     justify-content: center;
     text-decoration: underline;
 }
-nav{
+nav {
     margin: auto;
     padding: 10px;
     margin-right: 0cm;
 }
-nav>ul{
+nav>ul {
     text-align: right;
     
 }
@@ -61,7 +61,14 @@ footer{
     font-size: 25px;
     text-align: center;
     padding: 25px;
-    -ms-text-justify: distribute;
+    text-justify: distribute;
     font-style: italic;
     text-orientation: sideways;
+}
+#take{
+    color: cornsilk;
+    justify-content: flex-start;
+}
+li a:hover{
+    background-color: purple;
 }
