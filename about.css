@@ -137,3 +137,7 @@ table, th, td {
       margin: 0px -2px !important;
       /* grid-template-columns: auto auto auto; */
     }
+
+    .card {
+        box-shadow: 5px 5px 5px grey;
+    }

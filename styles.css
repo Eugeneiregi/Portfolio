@@ -43,6 +43,7 @@ body {
     /* height: 500px; */
     background-size: cover;
     background-repeat: no-repeat;
+    opacity: 1;
 } 
 .social{
     text-align: center;
@@ -71,4 +72,7 @@ footer{
 }
 li a:hover{
     background-color: purple;
+}
+img {
+    opacity: 0.5;
 }

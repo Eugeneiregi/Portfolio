@@ -52,3 +52,35 @@ h1{
     padding: 15px;
     color: darkslategrey;
 }
+.tape {
+    display: flex;
+}
+
+.tape img {
+    box-shadow:5px 5px 5px blue;
+}
+
+.tape img:hover {
+    box-shadow: 10px 10px 10px blue;
+}
+#write{
+    font-size: 20px;
+    text-decoration: black;
+    font-style: italic;
+    font-weight: bold;
+    padding: 50px;
+    color: magenta;
+}
+.sike {
+    float: right;
+    justify-content: right;
+    /* display: flex; */
+}
+.image{
+    float: right;
+    box-shadow: 5px 5px 5px blue;
+}
+
+.image:hover {
+    box-shadow: 10px 10px 10px blue;
+}

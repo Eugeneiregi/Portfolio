@@ -44,5 +44,6 @@ nav>ul>li {
 body {
     background-image: url("https://bit.ly/31tD0P8");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
