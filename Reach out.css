@@ -46,4 +46,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+li a:hover{
+    background-color: purple;
+}
