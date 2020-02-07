@@ -144,3 +144,6 @@ table, th, td {
     li a:hover{
         background-color: purple;
     }
+    background-image{
+        opacity: 0.5;
+    }
