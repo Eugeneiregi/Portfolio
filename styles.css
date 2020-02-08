@@ -41,6 +41,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
+    width: auto;
     
 
 } 
@@ -88,7 +89,7 @@ footer{
     padding: 20px;
     text-justify: distribute;
     font-style: italic;
-    text-orientation: sideways;
+    /* text-orientation: sideways; */
 }
 #take{
     color:white;
