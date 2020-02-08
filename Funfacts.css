@@ -98,4 +98,5 @@ footer {
 }
 #tube p{
     text-align: right;
+    justify-content: right;
 }
