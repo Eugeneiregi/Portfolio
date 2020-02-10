@@ -100,7 +100,9 @@ li a:hover{
     /* background: purple; */
     background-color: white;
 }
-
+em{
+    text-transform: capitalize;
+}
 
                   
                   
