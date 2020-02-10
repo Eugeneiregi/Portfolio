@@ -95,6 +95,8 @@ li a:hover{
 }
 footer {
     color: white;
+    position: fixed;
+    bottom: -0px;
 }
 #tube p{
     text-align: right;
