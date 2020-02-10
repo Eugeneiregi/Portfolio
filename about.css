@@ -55,7 +55,7 @@ table, th, td {
   body{
       background-image: url("https://bit.ly/36YSWtV");
       background-size: cover;
-      height: 1000px;
+      height: 1200px;
       /* background-attachment: fixed;  grid-template-columns: auto auto auto;
  */
  
@@ -98,6 +98,7 @@ table, th, td {
     width: 100%;
     height:0;
     transition: .7s ease;
+    
   }
   .shot {
       width: 100%;
@@ -135,6 +136,7 @@ table, th, td {
       /* width: 100% !important; */
       /* display: grid; */
       margin: 0px -2px !important;
+      /* position: fixed; */
       /* grid-template-columns: auto auto auto; */
     }
 

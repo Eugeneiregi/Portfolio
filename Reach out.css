@@ -49,6 +49,8 @@ body {
 li a:hover{
     background-color: purple;
 }
-/* footer { */
-    
-    /* } */
+footer{
+    position: fixed;
+    bottom: -0px;
+    background-color:blue;
+}
